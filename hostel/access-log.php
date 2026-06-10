@@ -1,11 +1,4 @@
-<?php
-session_start();
-include('includes/config.php');
-if (isset($_SESSION['id'])) {
 
-} else {
-    header("Location:index.php");
-}
 ?>
 <!doctype html>
 <html lang="en" class="no-js">
