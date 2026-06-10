@@ -1,11 +1,4 @@
 <?php
-session_start();
-include('includes/config.php');
-
-if (isset($_SESSION['id'])) {}
- else {
-    header("Location:index.php");
-}
 
 $user_id = $_SESSION['id'];
 if (isset($_POST['submit'])) {
